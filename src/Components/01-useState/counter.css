@@ -1,0 +1,9 @@
+body{
+    padding: 70px;
+    color: white;
+    background-color: rgb(66, 69, 83);
+}
+
+button{
+    margin: 2rem;
+}

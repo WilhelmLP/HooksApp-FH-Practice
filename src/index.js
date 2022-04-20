@@ -1,17 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import TodoApp from "./Components/08-useReducer/TodoApp";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//import HookApp from './HookApp';
+//import CounterApp from './Components/01-useState/CounterApp';
+//import CounterCustomHook from './Components/01-useState/CounterWhitCustomHook';
+//import SimpleForm from './Components/02-useEffect/SimpleForm';
+//import FormWithCustomHook from "./Components/02-useEffect/FormWithCustomHook";
+//import MultipleCustomHooks from "./Components/03-examples/MultipleCustomHooks";
+//import FocusScreen from "./Components/04-useRef/FocusScreen";
+//import RealExampleRef from "./Components/04-useRef/RealExampleRef";
+//import Layout from "./Components/05-useLayoutEffect/Layout";
+//import Memorize from "./Components/06-useMemo/Memorize";
+//import MemoHook from "./Components/06-useMemo/MemoHook";
+//import CallBackHook from "./Components/06-useMemo/CallBackHook";
+//import "./Components/08-useReducer/intro-reducer";
+//import Padre from "./Components/07-tarea-memo/Padre";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<TodoApp />, document.getElementById("root"));
